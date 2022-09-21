@@ -1,0 +1,52 @@
+body {
+    background: #d89c4f;  
+    background: -webkit-linear-gradient(to right, #834e0a, #d89c4f); 
+    background: linear-gradient(to right, #834e0a, #d89c4f); 
+}
+
+h1, h2, p, a {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    display: block;
+    text-align: center;
+    line-height:.8;
+    color: rgb(0, 0, 0);
+}
+
+h1 {  font-size: 5rem; }
+h2 {  font-size: 4rem; }
+
+a {
+    font-size: 2rem;
+    color: rgb(109, 2, 2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {  font-size: 1.8rem;}
+
+.Main {
+    max-width: 1200px;
+    margin: 1rem auto 0 auto;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+.Results {
+    max-width: 1200px;
+    margin: 5rem auto 0 auto;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.White {
+    color: rgb(54, 54, 54);
+    font-family: 'Arial', sans-serif;
+}
+
+button {
+    color: white;
+    background-color: black;
+    width: 10rem;
+    height: 3rem;
+}
