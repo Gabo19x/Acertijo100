@@ -71,7 +71,7 @@ function Buscar(acertijo, lista, i) {
 function Encontrar() {
     const resultados = {
         aprobado: 0,
-        desaprovado: 0,
+        desaprobado: 0,
     };
 
     let persona_cons = 1; 
@@ -98,7 +98,7 @@ function Encontrar() {
                     contador = 0;
                 }
             }else{
-                resultados.desaprovado += 1;
+                resultados.desaprobado += 1;
                 // console.log(`${persona_cons} desaprobo `);
 
                 if(persona_cons >= participantes){
@@ -126,7 +126,10 @@ function Encontrar() {
 
 function Mostrar(obj) {
     parrafos[0].textContent = `• Participants who found their number before ${numero} attempts: ${obj.aprobado}`;
-    parrafos[1].textContent = `• Participants who did NOT find their number before ${numero} attempts: ${obj.desaprovado}`;
+    parrafos[1].textContent = `• Participants who did NOT find their number before ${numero} attempts: ${obj.desaprobado}`;
+    let pa = (obj.aprobado * 100) / participantes;
+    let pd = (obj.desaprobado * 100) / participantes;
+    parrafos[2].textContent = `• Approval percentage: ${pa}% | Disapproval percentage: ${pd}%`;
 
     for (let valor in acertijo) {
         const nuevo = document.createElement('P');
