@@ -44,9 +44,22 @@ p {  font-size: 1.8rem;}
     font-family: 'Arial', sans-serif;
 }
 
-button {
+.Boton{
+    display: inline-block;
     color: white;
     background-color: black;
-    width: 10rem;
-    height: 3rem;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    border: 1rem;
+    border-radius: 1rem;
+    width: 15rem;
+    height: 1.5rem;
+}
+
+.Boton:hover{
+    cursor: pointer;
+    border: 5px solid white;
 }
