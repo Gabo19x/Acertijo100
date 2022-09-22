@@ -1,33 +1,35 @@
+/* Generals*/
 body {
-    background: #d89c4f;  
-    background: -webkit-linear-gradient(to right, #834e0a, #d89c4f); 
-    background: linear-gradient(to right, #834e0a, #d89c4f); 
+    background: #070707;  
+    background: -webkit-linear-gradient(to right, #202020, #070707); 
+    background: linear-gradient(to right, #202020, #070707); 
 }
 
-h1, h2, p, a {
+h1, h2, h3, p, a {
     font-family: 'Carrois Gothic SC', sans-serif;
     display: block;
     text-align: center;
     line-height:.8;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
-h1 {  font-size: 5rem; }
-h2 {  font-size: 4rem; }
+h1 {  font-size: 4rem; }
+h2 {  font-size: 3rem; }
+h3 {  font-size: 2rem; }
 
 a {
     font-size: 2rem;
-    color: rgb(109, 2, 2);
+    color: rgb(212, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 p {  font-size: 1.8rem;}
 
+/* Body*/
 .Main {
-    max-width: 1200px;
-    margin: 1rem auto 0 auto;
-    color: white;
-    font-size: 3rem;
+    
+    margin: 1rem auto 0 1rem;
+    font-size: 2rem;
     font-family: 'Carrois Gothic SC', sans-serif;
 }
 
@@ -39,12 +41,29 @@ p {  font-size: 1.8rem;}
     text-align: center;
 }
 
+.View{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+}
+/* Colors */
 .White {
-    color: rgb(54, 54, 54);
+    color: rgb(219, 219, 219);
     font-family: 'Arial', sans-serif;
 }
 
-.Boton{
+.Green {
+    color: rgb(174, 250, 177);
+    font-family: 'Arial', sans-serif;
+}
+
+.Red {
+    color: rgb(255, 166, 166);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Button */
+.Button{
     display: inline-block;
     color: white;
     background-color: black;
@@ -59,7 +78,7 @@ p {  font-size: 1.8rem;}
     height: 1.5rem;
 }
 
-.Boton:hover{
+.Button:hover{
     cursor: pointer;
     border: 5px solid white;
 }
