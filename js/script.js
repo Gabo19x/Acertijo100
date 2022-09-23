@@ -112,8 +112,8 @@ function Encontrar() {
 
 function Mostrar(obj) {
     parrafos[0].textContent = `• Participants: ${participantes} | Allowed attempts: ${numero}`;
-    parrafos[1].textContent = `• Participants who found their number before ${numero} attempts: ${obj.aprobado}`;
-    parrafos[2].textContent = `• Participants who did NOT find their number before ${numero} attempts: ${obj.desaprobado}`;
+    parrafos[1].textContent = `• Participants who found their number with ${numero} or less: ${obj.aprobado}`;
+    parrafos[2].textContent = `• Participants who did NOT find their number with ${numero} or less: ${obj.desaprobado}`;
     let pa = (obj.aprobado * 100) / participantes;
     let pd = (obj.desaprobado * 100) / participantes;
     parrafos[3].textContent = `• Approval percentage: ${pa}% | Disapproval percentage: ${pd}%`;
