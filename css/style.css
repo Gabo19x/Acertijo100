@@ -9,7 +9,7 @@ h1, h2, h3, p, a {
     font-family: 'Carrois Gothic SC', sans-serif;
     display: block;
     text-align: center;
-    line-height:.8;
+    line-height:.2;
     color: rgb(255, 255, 255);
 }
 
@@ -21,6 +21,8 @@ a {
     font-size: 2rem;
     color: rgb(212, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 1rem;
 }
 
 p {  font-size: 1.8rem;}
@@ -41,26 +43,21 @@ p {  font-size: 1.8rem;}
     text-align: center;
 }
 
+.Results p, h2, h3 {
+    text-align: left;
+}
+
 .View{
     display: flex;
     flex-wrap: wrap;
     column-gap: 3rem;
 }
+
 /* Colors */
-.White {
-    color: rgb(219, 219, 219);
-    font-family: 'Arial', sans-serif;
-}
-
-.Green {
-    color: rgb(174, 250, 177);
-    font-family: 'Arial', sans-serif;
-}
-
-.Red {
-    color: rgb(255, 166, 166);
-    font-family: 'Arial', sans-serif;
-}
+.White {  color: rgb(219, 219, 219); }
+.Green {  color: rgb(174, 250, 177); }
+.Red {  color: rgb(255, 166, 166); }
+.Blue { color: rgb(142, 192, 212); }
 
 /* Button */
 .Button{
