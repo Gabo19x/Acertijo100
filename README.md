@@ -5,6 +5,7 @@ the minimum to pass.
 It will also show the results.
 ### Analysis and testing in:
 [Blog web](https://temas-gabriel.blogspot.com/2022/09/pruebas-y-analisis-del-acertijo.html)
+
 [Web](https://gabo19x.github.io/Acertijo100/)
 ----
 # Acertijo 100 carceleros
@@ -12,4 +13,5 @@ El siguiente codigo es sobre el acertijo de los 100 carceleros, el codigo se pod
 Ademas mostrara los resultados.
 ### Analisis y pruebas en:
 [Blog web](https://temas-gabriel.blogspot.com/2022/09/pruebas-y-analisis-del-acertijo.html)
+
 [Web](https://gabo19x.github.io/Acertijo100/)
